@@ -40,6 +40,10 @@ body {
   border-radius: 10px;
 }
 
+.btn-cta:hover{
+  cursor:pointer;
+}
+
 .header{
   padding: 1rem 2rem;
   background-image : linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0% 10% , rgba(0, 0, 0, 0.4) 20% 70%, rgba(0, 0, 0, 0.9)  100%),url(../images/hero-bg.jpg); 
@@ -71,12 +75,15 @@ body {
 
 .title-2{
   text-align: center;
-  margin-top: -1.2rem;
+  margin: 2rem;
+  margin-top: -1rem;
 }
 
-  .subscription{
-    font-size: 25px;
-    font-weight: 700;
+  .subscriptions{
+    font-size: 34px;
+    font-weight: 400;
+    margin: 3rem;
+    text-align: center;
   }
 
   .co-title{
@@ -84,20 +91,17 @@ body {
     letter-spacing: 2px;
     word-spacing: 2px;
     margin: 2rem;
-    font-weight: 400;
-  }
-  .subscription{
-    font-size: 28px;
+    margin-bottom: -0.5rem;
     font-weight: 400;
   }
 
   .input{
-    margin: 3rem;
+    margin: 2rem;
     height: 4rem;
     width: 500px;
     border: 12px solid #fff;
     border-radius: 8px;
-    margin-bottom: -0.5rem;
+    margin-bottom: 3rem;
     opacity: 0.8;
     font-weight: 400;
     font-size: 24px;
@@ -112,6 +116,11 @@ body {
     border: 8px solid #e62731 ;
     border-radius: 10px;
     word-spacing: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .btn-cta2:hover{
+    cursor:pointer;
   }
 
   .line{
@@ -122,6 +131,7 @@ body {
 
   .container-hero{
     padding: 2rem;
+    margin: 3rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,7 +139,7 @@ body {
   }
 
   .img-main{
-    width: 80%;
+    width: 60rem;
   }
 
   .title-main{
@@ -142,4 +152,61 @@ body {
     font-size: 2.5rem;
     font-weight: 400;
     text-align: center;
+  }
+
+  .faq-title{
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .faq-btn{
+    padding: 2rem;
+    margin: 1rem 4rem;
+    border: none;
+    border-radius: 6px;
+    width: 90%;
+    background-color: #2a2929;
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+  }
+
+  .faq-btn:hover{
+    cursor: pointer;
+  }
+
+  .restart{
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-title{
+    font-size: 38px;
+    margin: 2rem;
+    text-align: center;
+  }
+
+  .footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 32px;
+    backgroud-color: #fff;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 4rem;
+  }
+
+  .end{
+  font-size: 34px;
+  padding: 2rem;
+  margin: 3rem;
   }
